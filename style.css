@@ -1,0 +1,228 @@
+*{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: white;
+}
+.container{
+    max-width: 1480px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+/* .container {
+    max-width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto;
+} */
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    height: 121px;
+    background-color: #000000;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+.list-nav-site{
+    display: flex;
+    gap: 30px;
+}
+.list-login{
+    display: flex;
+    gap: 30px;
+}
+.logo{
+    font-family: "Cormorant Upright";
+        font-size: 44px;
+        font-weight: 700;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: white;
+        /* padding-left: 80px; */
+}
+.nav-site>a{
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: white;
+}
+.login{
+    font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 600;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: white;
+}
+.book-table{
+    padding-left: 15px;
+    border-left: 1px solid white;
+}
+.hero{
+    height: 1020px;
+    background-color: #000000;
+}
+.sidetext{
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    color: white;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.flavours{
+        font-family: "Cormorant Upright";
+        font-size: 23px;
+        font-weight: 700;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        padding-left: 120px;
+        padding-top: 100px;
+        margin-bottom: 50px;
+}
+.hero-title{
+        font-family: "Cormorant Upright";
+        font-size: 90px;
+        font-weight: 700;;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #DCCA87;
+        padding-left: 120px;
+}
+.hero-title-p {
+    font-family: "Cormorant Upright";
+    font-size: 90px;
+    font-weight: 700;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #DCCA87;
+}
+.hero-comment{
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        padding-left: 120px;
+        width: 600px;
+        margin-top: 30px;
+        color: #AAAAAA;
+}
+.hero-content{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+.hero-button{
+        font-family: "Cormorant Upright";
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color:rgba(12, 11, 8, 1);
+        width:157px;
+            height: 44px;
+            padding: 8px 32px 8px 32px;
+        background-color: #DCCA87;
+}
+.div-hero-button{
+    margin-top: 30px;
+    padding-left: 120px;
+}
+.hero-numbers{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-family: "Cormorant Upright";
+        font-size: 16px;
+        font-weight: 600;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+}
+.hero-numbers>div{
+    align-self: center;
+    width: 16px;
+    height: 1px;
+    background-color: #DCCA87;
+}
+.about-us{
+    height: 959px;
+    background-image: url(./img/BG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.title-about-us{
+        font-family: "Cormorant Upright";
+        font-size: 64px;
+        font-weight: 600;
+        text-align: right;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #DCCA87;
+        margin-bottom: 25px;
+}
+.title-about-us-left {
+    font-family: "Cormorant Upright";
+    font-size: 64px;
+    font-weight: 600;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #DCCA87;
+    margin-bottom: 25px;
+}
+.list-section-about-us{
+    display: flex;
+    gap: 150px;
+
+}
+.comment-about-us{
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 400;
+        text-align: right;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #AAAAAA;
+        width: 487px;
+        margin-bottom: 40px;
+}
+.comment-about-us-left {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #AAAAAA;
+    width: 487px;
+    margin-bottom: 40px;
+}
+.about-us-button{
+    display: flex;
+    justify-content: end;
+}
+.li-img{
+padding-top: 150px;
+}
+.li-list-section-about-us{
+    padding-top: 350px;
+}
