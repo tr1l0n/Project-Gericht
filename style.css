@@ -194,7 +194,7 @@ a{
     height: 959px;
     background-image: url(./img/BG.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
 }
 .title-about-us{
         font-family: "Cormorant Upright";
@@ -361,11 +361,14 @@ footer{
     justify-content: center;
 }
 .list-menu{
+    width: 100%;
     height: 900px;
     background-image:
     url(./img/bgbeer.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .list-menus{
     display: flex;
     flex-direction: column;
@@ -397,7 +400,8 @@ footer{
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
         color: #FFFFFF;
-}.special-spoon{
+}
+.special-spoon{
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
