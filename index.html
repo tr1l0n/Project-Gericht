@@ -17,8 +17,8 @@
         rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="container header">
+    <header class="bg-header">
+        <div class="containe-alt header">
             <p class="logo">Gericht</p>
             <ul class="list-nav-site">
                 <li class="nav-site"><a href="#">Home</a></li>
@@ -35,7 +35,7 @@
     </header>
     <main>
         <section class="hero">
-            <div class="container">
+            <div class="container-alt">
                 <div class="hero-content">
                     <div class="sidetext">
                         <p>#Bar</p>
@@ -43,6 +43,7 @@
                     </div>
                     <div>
                         <p class="flavours">Chase The New Flavour</p>
+                        <img src="./img/spoon.png" alt="spoon" width="40px" height="9px" class="spoon">
                         <h1 class="hero-title">The Key To <p class="hero-title-p">Fine Dining</p></h1>
                         <p class="hero-comment">Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et,
                         penatibus aliquam amet tellus</p>
@@ -60,10 +61,13 @@
                     <p>03</p>
                     <p>04</p>
                 </div>
+                <div class="hero-scroll">
+                    <p>SCROLL</p>
+                </div>
             </div>
         </section>
         <section class="about-us">
-            <div class="container">
+            <div class="container-inner">
                 <ul class="list-section-about-us">
                     <li class="li-list-section-about-us">
                         <h2 class="title-about-us">
@@ -93,118 +97,175 @@
             </div>
         </section>
         <section class="reservations">
-            <div class="container">
-                <div>
-                    <p>reservations</p>
-                    <h3>Book A Table</h3>
-                    <ul>
-                        <li>
-                            <select id="numberofpeople">
-                                <option value="1 person" selected>1 person</option>
-                                <option value="2 people">2 people</option>
-                                <option value="3 people">3 people</option>
-                                <option value="4 people">4 people</option>
-                                <option value="5 people">5 people</option>
-                                <option value="6 people">6 people</option>
-                                <option value="7 people">7 people</option>
-                            </select> 
-                        </li>
-                            <li>
-                            <form>
-                            <input type="date">
-                            </form>
-                        </li>
-                        <li>
-                            <form>
-                                <input type="time">
-                            </form>
-                        </li>
-                    </ul>
-                    <button>Book Now</button>
+            <div class="container-inner">
+                <div class="div-div-reservations">
+                    <div class="div-reservations">
+                        <div class="div-p-reservations">
+                            <p>reservations</p>
+                        </div>
+                        <div class="reservations-spoon">
+                            <img src="./img/spoon.png" alt="spoon" width="40px" height="9px">
+                        </div>
+                        <div class="div-title-reservations">
+                            <h3 class="title-reservations">Book A Table</h3>
+                        </div>
+                        <ul class="list-reservations">
+                            <li class="li-selector">
+                                <select id="numberofpeople" class="selector">
+                                    <option value="1 person" selected>1 person</option>
+                                    <option value="2 people">2 people</option>
+                                    <option value="3 people">3 people</option>
+                                    <option value="4 people">4 people</option>
+                                    <option value="5 people">5 people</option>
+                                    <option value="6 people">6 people</option>
+                                    <option value="7 people">7 people</option>
+                                </select> 
+                            </li>
+                            <li class="li-selector">
+                                <form>
+                                <input type="date" class="selector">
+                                </form>
+                            </li>
+                            <li class="li-selector">
+                                <form>
+                                    <input type="time" class="selector">
+                                </form>
+                            </li>
+                        </ul>
+                        <div class="button-reservation">
+                            <button  class="hero-button">Book Now</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="list-menu">
-            <div class="container">
-                <ul>
-                    <li>Bar Menu</li>
-                    <li>Food Menu</li>
-                    <li>Desserts Menu</li>
+            <div class="container-alt">
+                <ul class="list-menus">
+                    <li><a href="./barhome.html" class="type-of-menu">Bar Menu</a></li>
+                    <li><a href="#" class="type-of-menu">Food Menu</a></li>
+                    <li><a href="#" class="type-of-menu">Desserts Menu</a></li>
                 </ul>
             </div>
         </section>
-        <section class="todays special">
-            <div class="container">
-                <p>Menu That Fit You Palatte</p>
-                <h3>Today's Special</h3>
+        <section class="todays-special">
+            <div class="container-inner">
+                <div class="comment-special">
+                    <p>Menu That Fit You Palatte</p>
+                </div>
+                <div class="special-spoon">
+                    <img src="./img/spoon.png" alt="spoon" width="40px" height="9px">
+                </div>
+                <div class="title-special">
+                    <h3>Today's Special</h3>
+                </div>
+            <ul class="list-specials">
+                <li>
+                    <div class="div-menu-drinks">
+                        <p class="menu-drinks">Wine & Beer</p>
+                    </div>
+                <!-- </li>
+                <li> -->
+                    <!-- <ul class="list-drinks">
+                        <li> -->
+                            <div class="div-li-menu">
+                                <p class="name-drinks">Chapel Hill Shiraz </p>
+                                <div class="line"></div>
+                                <p class="price">$56</p>
+                            </div>
+                            <p class="firm">AU | Bottle</p>
+                        <!-- </li>
+                        <li> -->
+                            <div class="div-li-menu">
+                                <p class="name-drinks">Catena Malbee</p>
+                                <div class="line"></div>
+                                <p class="price">$59</p>
+                            </div>
+                            <p class="firm">AR | Bottle</p>
+                        <!-- </li>
+                        <li> -->
+                            <div class="div-li-menu">
+                                <p class="name-drinks">La Vielle Rosé</p>
+                                <div class="line"></div>
+                                <p class="price">$44</p>
+                            </div>
+                            <p class="firm">FR | 750ml</p>
+                        <!-- </li>
+                        <li> -->
+                            <div class="div-li-menu">
+                                <p class="name-drinks">Rhino Pale Ale</p>
+                                <div class="line"></div>
+                                <p class="price">$31</p>
+                            </div>
+                            <p class="firm">CA | 750ml</p>
+                        <!-- </li>
+                        <li> -->
+                            <div class="div-li-menu">
+                                <p class="name-drinks">Irish Guinnes</p>
+                                <div class="line"></div>
+                                <p class="price">$26</p>
+                            </div>
+                            <p class="firm">IE | 750ml</p>
+                        <!-- </li> -->
+                    <!-- </ul> -->
+                </li>
+                <li>
+                    <img src="./img/coctailtool.png" alt="cocktailstool" width="380px" height="610px">
+                </li>
+                <li>
+                    <div class="div-menu-drinks">
+                        <p class="menu-drinks">Coctails</p>
+                    </div>
+                <!-- </li>
+                <li> -->
+                    <!-- <ul>
+                        <li> -->
+                            <div class="div-li-menu">
+                                <p class="name-drinks">Aperol Spritz</p>
+                                <div class="line"></div>
+                                <p class="price">$20</p>
+                            </div>
+                            <p class="firm">Aperol | Villa Marchesi prosecco | soda | 30ml</p>
+                        <!-- </li>
+                        <li> -->
+                            <div class="div-li-menu">
+                                <p class="name-drinks">Dark 'N' Stormy</p>
+                                <div class="line"></div>
+                                <p class="price">$16</p>
+                            </div>
+                            <p class="firm">Dark rum | Ginger beer | Slice of lime.</p>
+                        <!-- </li>
+                        <li> -->
+                            <div class="div-li-menu">
+                                <p class="name-drinks">Daiquiru</p>
+                                <div class="line"></div>
+                                <p class="price">$10</p>
+                            </div>
+                            <p class="firm">Rum | Citrus juice | Sugar</p>
+                        <!-- </li>
+                        <li> -->
+                            <div class="div-li-menu">
+                                <p class="name-drinks">Old Fashioned</p>
+                                <div class="line"></div>
+                                <p class="price">$31</p>
+                            </div>
+                            <p class="firm">Bourbon | Brown sugar | Angostura Bitters</p>
+                        <!-- </li>
+                        <li> -->
+                            <div class="div-li-menu">
+                                <p class="name-drinks">Negroni</p>
+                                <div class="line"></div>
+                                <p class="price">$26</p>
+                            </div>
+                            <p class="firm">Gin | Sweet Vermouth | Campari | Orange garnish</p>
+                        <!-- </li> -->
+                    <!-- </ul> -->
+                </li>
+            </ul>
+            <div class="button-specials">
+                <button class="hero-button">View More</button>
             </div>
-            <p>Wine & Beer</p>
-            <ul>
-                <li>
-                    <p>Chapel Hill Shiraz</p>
-                    <div></div>
-                    <p>$56</p>
-                    <p>AU | Bottle</p>
-                </li>
-                <li>
-                    <p>Catena Malbee</p>
-                    <div></div>
-                    <p>$59</p>
-                    <p>AR | Bottle</p>
-                </li>
-                <li>
-                    <p>La Vielle Rosé</p>
-                    <div></div>
-                    <p>$44</p>
-                    <p>FR | 750ml</p>
-                </li>
-                <li>
-                    <p>Rhino Pale Ale</p>
-                    <div></div>
-                    <p>$31</p>
-                    <p>CA | 750ml</p>
-                </li>
-                <li>
-                    <p>Irish Guinnes</p>
-                    <div></div>
-                    <p>$26</p>
-                    <p>IE | 750ml</p>
-                </li>
-            </ul>
-            <p>Coctails</p>
-            <ul>
-                <li>
-                    <p>Aperol Spritz</p>
-                    <div></div>
-                    <p>$20</p>
-                    <p>Aperol | Villa Marchesi prosecco | soda | 30ml</p>
-                </li>
-                <li>
-                    <p>Dark 'N' Stormy</p>
-                    <div></div>
-                    <p>$16</p>
-                    <p>Dark rum | Ginger beer | Slice of lime.</p>
-                </li>
-                <li>
-                    <p>Daiquiru</p>
-                    <div></div>
-                    <p>$10</p>
-                    <p>Rum | Citrus juice | Sugar</p>
-                </li>
-                <li>
-                    <p>Old Fashioned</p>
-                    <div></div>
-                    <p>$31</p>
-                    <p>Bourbon | Brown sugar | Angostura Bitters</p>
-                </li>
-                <li>
-                    <p>Negroni</p>
-                    <div></div>
-                    <p>$26</p>
-                    <p>Gin | Sweet Vermouth | Campari | Orange garnish</p>
-                </li>
-            </ul>
-            <button>View More</button>
+        </div>
         </section>
         <section class="chefs-word">
             <div class="container">
