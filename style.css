@@ -91,6 +91,31 @@ a{
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
 }
+.hero-line{
+    transform: rotate(180deg);
+        writing-mode: vertical-lr;
+        color: white;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        gap: 40px;
+        margin-bottom: 50px;
+}
+.hero-line>div{
+    width: 61px;
+    height: 1px;
+    transform: rotate(90deg);
+    background-image: linear-gradient(
+        to left,
+        rgba(220, 202, 135, 1),
+        rgba(220, 202, 135, 1),
+        rgba(220, 202, 135, 0.24)
+    );
+}
+.logo-reservations{
+    display: flex;
+    justify-content: end;
+}
 .flavours{
         font-family: "Cormorant Upright";
         font-size: 23px;
@@ -173,6 +198,14 @@ a{
         text-decoration-skip-ink: none;
         color: #DCCA87;
 }
+/* .hero-scroll::before{
+    content: "";
+        display: block;
+        width: 61px;
+        height: 1px;
+        background-color: #DCCA87;
+        transform: rotate(90deg);
+} */
 .hero-numbers{
     display: flex;
     justify-content: center;
@@ -302,7 +335,7 @@ footer{
     background-color: #0C0c0c; 
 }
 .div-div-reservations{
-    padding-top: 150px;
+    padding-top: 50px;
 }
 .div-p-reservations{
     display: flex;
@@ -500,4 +533,222 @@ footer{
     display: flex;
     justify-content: center;
     margin-top: 50px;
+}
+.chefs-word{
+    height: 1045px;
+    background-image: url(./img/backgrpound.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.list-chefs-section{
+    display: flex;
+    gap: 50px;
+    height: 789px;
+    padding-top: 100px;
+}
+.chef-title{
+        font-family: "Cormorant Upright";
+        font-size: 23px;
+        font-weight: 700;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        padding-top: 87px;
+}
+.believe-in{
+        font-family: "Cormorant Upright";
+        font-size: 64px;
+        font-weight: 600;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #DCCA87;
+        padding-top: 20px;
+}
+.comment-chef{
+    font-family: "Open Sans";
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 400;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #AAAAAA;
+        padding-top: 70px;
+}
+.chefs-name{
+        font-family: "Cormorant Upright";
+        font-size: 32px;
+        font-weight: 400;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #DCCA87;
+        padding-top: 70px;
+}
+.kevin-professions{
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #AAAAAA;
+        padding-top: 10px;
+        margin-bottom: 70px;
+}
+.happy-customers{
+    height: 990px;
+    background-color: #0c0b08;
+}
+.customers-titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    gap: 10px;
+}
+.title-testimony{
+        font-family: "Cormorant Upright";
+        font-size: 23px;
+        font-weight: 700;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+}
+.title-happy-customers{
+        font-family: "Cormorant Upright";
+        font-size: 64px;
+        font-weight: 600;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #DCCA87;
+}
+.list-customers{
+    display: flex;
+    height: 443px;
+    width: 100%;
+    padding-top: 50px;
+}
+.customer{
+    display: flex;
+    width: 634px;
+    height: 210px;
+}
+.customer-info{
+    width: 410px;
+    height: 174px;
+}
+.customer:nth-child(1){
+    margin-bottom: 50px;
+}
+.info-about-customer{
+    font-family: "Open Sans";
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 400;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #AAAAAA;
+        padding-top: 20px;
+}
+.name-customer{
+        font-family: "Cormorant Upright";
+        font-size: 32px;
+        font-weight: 400;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #DCCA87;
+        padding-top: 50px;
+}
+.customers-profession{
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #F5EfDB;
+        padding-top: 10px;
+}
+.video{
+    height: 763px;
+    background-image:url(./img/backroundvideo.png);
+    background-repeat: no-repeat;
+}
+.logo-play{
+    padding-top: 150px;
+    padding-left: 100px;
+}
+.button-play{
+    display: flex;
+    justify-content: center;
+}
+.laurels{
+    height: 947px;
+    background-image: url(./img/backgrpound.png);
+    background-repeat: no-repeat;
+
+}
+.awards{
+        font-family: "Cormorant Upright";
+        font-size: 23px;
+        font-weight: 700;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        padding-top: 200px;
+}
+.title-laurels{
+        font-family: "Cormorant Upright";
+        font-size: 64px;
+        font-weight: 600;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #DCCA87;
+}
+.list-awards{
+    display: flex;
+    padding-top: 70px;
+    gap: 50px;
+}
+.list-awards>ul{
+    padding-inline-start: 0;
+
+}
+.type-of-awards{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 50px;
+    width: 301px;
+    height: 94px;
+}
+.name-award{
+        font-family: "Cormorant Upright";
+        font-size: 23px;
+        font-weight: 700;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #DCCA87;
+        margin-bottom: 10px;
+}
+.comment-about-award{
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #AAAAAA;
+}
+.section-laurels{
+    display: flex;
+}
+.img-laurels{
+    padding-top: 100px;
 }
