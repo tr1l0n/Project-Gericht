@@ -48,7 +48,6 @@ a{
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
         color: white;
-        /* padding-left: 80px; */
 }
 .nav-site>a{
         font-family: "Open Sans";
@@ -159,7 +158,6 @@ a{
 }
 .hero-content{
     display: flex;
-    /* justify-content: space-around; */
     gap: 100px;
     margin-bottom: 100px;
 }
@@ -198,14 +196,6 @@ a{
         text-decoration-skip-ink: none;
         color: #DCCA87;
 }
-/* .hero-scroll::before{
-    content: "";
-        display: block;
-        width: 61px;
-        height: 1px;
-        background-color: #DCCA87;
-        transform: rotate(90deg);
-} */
 .hero-numbers{
     display: flex;
     justify-content: center;
@@ -225,7 +215,7 @@ a{
 }
 .about-us{
     height: 959px;
-    background-image: url(./img/BG.png);
+    background-image: url(./img/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
