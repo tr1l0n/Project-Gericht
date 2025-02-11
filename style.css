@@ -313,6 +313,7 @@ footer{
     background-image: url(./img/backgrpound.png);
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 .reservations{
     height: 770px;
@@ -378,6 +379,19 @@ footer{
         background-color: #0C0c0c;
         width: 410px;
         height: 60px;
+        position: relative;
+}
+.selector::-webkit-calendar-picker-indicator {
+    position: relative;
+        z-index: 30;
+        opacity: 0;
+}
+.selector::after{
+    content: url(./img/reservation_tool.svg);
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .button-reservation{
     display: flex;
@@ -423,6 +437,44 @@ footer{
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
         color: #FFFFFF;
+}
+.image-wrapper-gallery::before{
+            content: url('./img/u_instagram.svg');
+            position: absolute;
+            top: 45%;
+            left: 45%;
+            opacity: 0;
+            transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out;
+            width: 50px;
+            height: 50px;
+            z-index: 3;
+            /* transform: translate(-50%, 50px); */
+}
+.image-wrapper-gallery::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75) 75%, rgba(0, 0, 0, 0.64) 100%);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.image-wrapper-gallery:hover::after,
+.image-wrapper-gallery:hover::before {
+    opacity: 1;
+}
+.image-wrapper-gallery {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-wrapper-gallery:hover {
+    transform: translateY(-30px) scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
 .special-spoon{
     display: flex;
